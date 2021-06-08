@@ -1,27 +1,15 @@
 $(document).ready(function (){
     var videoSource = new Array(
-        "https://jiexi.380k.com/?url=", // default-most-f
         "https://okjx.cc/?url=", // ok-f
-        "http://www.600m.net/api/?v=", // ok
+		"https://jx.aidouer.net/?url="
+		"https://jx.qianhaijishi.net/?url="
         "https://www.8090g.cn/?url=", // ok-need-flash
-        "http://jx.618g.com/?url=", // ok-f-by-380k
         "https://jx.618g.com/?url=", // ok-f
         "https://www.2ajx.com/vip.php?url=", // ok-f-by-2Ajx
         "http://17kyun.com/api.php?url=", // ok
-        "https://jiexi8.com/vip/index.php?url=", // ok
-        "https://www.ckmov.xyz/jx/api/?url=", // ok-f
-        "https://jx.98a.ink/?url=", // ok
-        "https://api.rdhk.net/?url=", // ok-f
-        "https://api.78sy.cn/?url=", // ok-f-first
         "https://www.1717yun.com/yunjx/?url=", // ok-need-flash
         "https://www.1717yun.com/jx/ty.php?url=",
-        "http://vip.jlsprh.com/?url=", // ok
-        "https://z1.m1907.cn/?jx=",
-        "https://jx.jiexis.com/?url=",
-        "https://cdn.yangju.vip/k/?url=",
-        "https://www.myxin.top/jx/api/?url=",
-        "https://jiexi.071811.cc/jx.php?url=",
-        "https://jx.598110.com/index.php?url=",
+        "https://z1.m1907.cn/?jx="
     );
     
 	//输入框获得焦点时的事件
