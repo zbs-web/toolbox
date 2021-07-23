@@ -1,8 +1,8 @@
 $(document).ready(function (){
     var videoSource = new Array(
         "https://okjx.cc/?url=", // ok-f
-		"https://jx.aidouer.net/?url="
-		"https://jx.qianhaijishi.net/?url="
+	"https://jx.aidouer.net/?url=",
+	"https://jx.qianhaijishi.net/?url=",
         "https://www.8090g.cn/?url=", // ok-need-flash
         "https://jx.618g.com/?url=", // ok-f
         "https://www.2ajx.com/vip.php?url=", // ok-f-by-2Ajx
