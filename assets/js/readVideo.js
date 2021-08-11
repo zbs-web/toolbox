@@ -1,8 +1,8 @@
 $(document).ready(function (){
     var videoSource = new Array(
         "https://okjx.cc/?url=", // ok-f
-	"https://jx.aidouer.net/?url=",
-	"https://jx.qianhaijishi.net/?url=",
+		"https://jx.aidouer.net/?url=",
+		"https://jx.qianhaijishi.net/?url=",
         "https://www.8090g.cn/?url=", // ok-need-flash
         "https://jx.618g.com/?url=", // ok-f
         "https://www.2ajx.com/vip.php?url=", // ok-f-by-2Ajx
@@ -33,7 +33,7 @@ $(document).ready(function (){
         //获取用户输入的视频地址并验证
         var input = $("#videoURL").val();
         if (input == "") {
-            layer.confirm("您未粘贴视频地址！", {btn:['确定'], title: '提示'}, function(){
+            layer.confirm("<h4 style='color:red;'>提示：</h4>您未粘贴视频地址！<br />请在文本框中粘贴<b>电脑版</b>视频网站地址。", {btn:['确定'], title: '提示'}, function(){
                 $("#tips1").html("您未粘贴视频地址！");
                 layer.close(layer.index);
             });
@@ -50,7 +50,7 @@ $(document).ready(function (){
 				window.open(videoSource[randomNum] + input);
 			}
 			else {
-				layer.confirm("您输入的视频地址无效！", {btn:['确定'], title: '提示'}, function(){
+				layer.confirm("<h4 style='color:red;'>提示：</h4>您输入的视频地址无效！<br />请在文本框中粘贴<b>电脑版</b>视频网站地址。", {btn:['确定'], title: '提示'}, function(){
 					$("#tips1").html("您输入的视频地址无效！");
 					layer.close(layer.index);
 				});
@@ -58,3 +58,4 @@ $(document).ready(function (){
         }
     });
 });
+
