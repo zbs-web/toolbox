@@ -29,6 +29,9 @@ $(document).ready(function (){
 		})
 	})
 	
+	//存储视频解析源序号
+	var videoSourceIndex = 0;
+	
 	//解析按钮对应的点击事件
     $("#videoButton").click(function() {
         //获取用户输入的视频地址并验证
@@ -46,9 +49,11 @@ $(document).ready(function (){
 			var isIqiyi = input.indexOf("www.iqiyi.com") != -1;
 			var isTencent = input.indexOf("v.qq.com") != -1;
 			if (isYouku || isIqiyi || isTencent) {
+				//自动生成解析源序号
+				var autoVideoSourceIndex = videoSourceIndex++ % videoSource.length;
+				
 				//跳转到解析地址
-				var randomNum = Math.floor (Math.random() * videoSource.length);
-				window.open(videoSource[randomNum] + input);
+				window.open(videoSource[autoVideoSourceIndex] + input);
 			}
 			else {
 				layer.confirm("<h4 style='color:red;'>提示：</h4>您输入的视频地址无效！<br />请在文本框中粘贴<b>电脑版</b>视频网站地址。", {btn:['确定'], title: '提示'}, function(){
