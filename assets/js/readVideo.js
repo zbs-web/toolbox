@@ -1,16 +1,16 @@
 $(document).ready(function (){
     var videoSource = new Array(
-        "https://okjx.cc/?url=", // ok-f
-	"https://jx.aidouer.net/?url=",
-	"https://jx.qianhaijishi.net/?url=",
+        "https://vip.parwix.com:4433/player/?url=", 
+	"https://okjx.cc/?url=",
+	"https://vip.bljiex.com/?v=",
         "https://www.8090g.cn/?url=", // ok-need-flash
         "https://jx.618g.com/?url=", // ok-f
-        "https://vip.parwix.com:4433/player/?url=", 
+        "https://jx.aidouer.net/?url=",
+	"https://jx.qianhaijishi.net/?url=",
         "http://17kyun.com/api.php?url=", // ok
         "https://www.1717yun.com/yunjx/?url=", // ok-need-flash
         "https://www.1717yun.com/jx/ty.php?url=",
-        "https://z1.m1907.cn/?jx=",
-	"https://vip.bljiex.com/?v="
+        "https://z1.m1907.cn/?jx="
     );
     
 	//输入框获得焦点时的事件
