@@ -48,7 +48,8 @@ $(document).ready(function (){
 			var isYouku = input.indexOf("v.youku.com") != -1;
 			var isIqiyi = input.indexOf("www.iqiyi.com") != -1;
 			var isTencent = input.indexOf("v.qq.com") != -1;
-			if (isYouku || isIqiyi || isTencent) {
+			var isBilibili = input.indexOf("www.bilibili.com") != -1;
+			if (isYouku || isIqiyi || isTencent || isBilibili) {
 				//自动生成解析源序号
 				var autoVideoSourceIndex = videoSourceIndex++ % videoSource.length;
 				
